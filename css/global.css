@@ -9,6 +9,7 @@ body{
 	text-align: center;
 	background: #aaaaaa;
 	font-family: '微软雅黑','Microsoft YaHei',verdana,sans-serif,'黑体',arial;
+	background:transparent url(bj/bj_white.jpg) no-repeat fixed right 0;
 }
 
 #full{
@@ -37,6 +38,7 @@ body{
 	font-weight: bold;
 	margin: 0px;
 	padding: 30px 0px 0px 30px;
+	color:#f60;
 }
 
 #container{
