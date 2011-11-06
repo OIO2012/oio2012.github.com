@@ -1,0 +1,16 @@
+重装github的使用
+首先：重建ssh
+ssh-keygen -C 'leiyaolin010@gmail.com' -t rsa
+然后到目录.ssh下找到
+id_rsa.pub
+复制其中内容到github网站上添加一个密钥。
+SSH -v git@github.com
+如果提示你的密钥不正确，那么你需要重新确认上一步的操作是否完整无误。
+
+
+现在打开网站所在目录执行以下操作
+
+ `git init` 初始化，`git add .` 把index.html加入到仓库中，`git commit` 提交修改
+提交到github分支 `git push origin master`
+
+就可以更新Pages了;-} have fun。
