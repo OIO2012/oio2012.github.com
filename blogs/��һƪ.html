@@ -5,41 +5,48 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<meta name="generator" content="oio" />
-<meta name="author" content="OIO (leiyaolin010[AT]gmail.com)" />
-
-<title>测试.博客</title>
+<meta name="generator" content="gvim" />
+<meta name="author" content="OIO(leiyaolin010[AT]gmail.com)" />
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link type="text/css" rel="stylesheet" href="css/template.css" />
+<script type="text/javascript">
+function onSearch(){
+    location.href = "search.html#"+document.getElementById("input_search").value;
+    return false;
+}
+</script>
+<title>第一篇</title>
 </head>
 <body>
 <div id="wrapper">
 <header>
-
-
-</header>
-<div>
-    这是一个测试页，测试blog和评论系统。
+<div style="float:right;">
+    <form action="search.html" id="searchbox" onsubmit="return onSearch();">
+        <input type="text" name="q" id="input_search" />
+        <input type="submit" value="搜索" />
+    </form>
 </div>
-
+<nav>
+    <ul>
+        <li class="first"><a href="../index.html" title="Home">个人主页</a></li>
+        <li class="last"><a href="index.html" title="Blog">博客</a></li>
+    </ul>
+</nav>
+</header>
 <div id="container">
     <article>
-
-<h1 id="toc_1">H1</h1>
-<p>
-H2 Hello World！
-</p>
-<pre>
-我不是C++
-我不是Java
-</pre>
-
+        
+<h1 id="toc_1">first test</h1>
 
 <p>
- blog:datetime
+nothing\..
 </p>
+
     </article>
-    </div>
+</div>
 
-   <div id="disqus_thread"></div>
+<div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'oiosblog'; // required: replace example with your forum shortname
@@ -58,5 +65,11 @@ H2 Hello World！
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
+<footer>
+    <p>
+    By <a href="http://OIO2012.github.com">010</a> with vim & git and powered by <a href="http://hotoo.me">hotoo</a>.
+    </p>
+</footer>
+</div>
 </body>
 </html>

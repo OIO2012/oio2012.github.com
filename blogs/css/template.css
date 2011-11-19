@@ -11,7 +11,6 @@ nav{width:100%; margin:0 auto; left:0; top:0;}
         nav ul li.actived, #main-nav ul li:hover{background-image:url(bg/bg_topSearch3-on.gif);}
             nav ul li a{text-decoration:none; color:#666; margin:0; height:37px; line-height:35px; padding:0 16px; display:block;}
             nav ul li.actived a{color:#f60; padding:0 24px; font-weight:bold;}
-
 #container{width:100%; margin:0 auto; font-size:1.0em;}
 body::selection,
 h1::selection,
@@ -66,7 +65,7 @@ b::-moz-selection,
 strong::-moz-selection{background-color:#f60; color:#fff;}
 
 h1, h2, h3, h4, h5, h6 {font-family:"Trebuchet MS",serif; margin:.5em 0; line-height:1.2em;}
-h1{font-size:1.8em; border-bottom:1px solid #eee;}
+h1{font-size:1.8em; border-bottom:1px solid #eee; color:#F60}
 h2{font-size:1.6em; font-weight:normal; border-bottom:1px solid #eee;}
 /*h2:first-letter{font-size:1.25em; font-weight:bold;}*/
 h3{font-size:1.3em; font-weight:normal; border-bottom:1px dashed #e3e3e3;}
